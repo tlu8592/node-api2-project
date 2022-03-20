@@ -1,6 +1,5 @@
 // implement your posts router here
 const express = require('express');
-const { restart } = require('nodemon');
 const Post = require('./posts-model');
 const router = express.Router();
 
